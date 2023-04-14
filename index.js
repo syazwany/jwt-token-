@@ -8,16 +8,16 @@ const jwt = require('jsonwebtoken');
 
 let dbUser = [ 
   {
-    username: "Ahmad",
-    password: "secret",
-    name: "aaahmad",
-    email: "ahmadpeaceyow@gmail.com"
+    username: "Syazwany",
+    password: "123",
+    name: "wany",
+    email: "wany@gmail.com"
   },
   {
-    username: "gugugaga",
-    password: "999",
-    name: "lady gaga",
-    email: "ladygagadarkweb@gmail.com"
+    username: "harry styles",
+    password: "193",
+    name: "harry",
+    email: "harry@gmail.com"
     }
 ] 
 // enable json body parsing

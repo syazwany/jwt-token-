@@ -6,8 +6,8 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "username": "Ahmad",
-    "password": "secret"
+    "username": "Syazwany",
+    "password": "123"
 }
 
 ###
@@ -16,10 +16,10 @@ POST http://localhost:3000/register
 Content-Type: application/json
 
 {
-    "username": "gugugaga",
-    "password": "999",
-    "name": "lady gaga",
-    "email": "ladygagadarkweb@gmail.com"
+    "username": "Harry styles",
+    "password": "193",
+    "name": "harry",
+    "email": "harry@gmail.com"
 }
 
 ###
