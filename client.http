@@ -1,0 +1,28 @@
+GET http://localhost:3000/
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "Ahmad",
+    "password": "secret"
+}
+
+###
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "gugugaga",
+    "password": "999",
+    "name": "lady gaga",
+    "email": "ladygagadarkweb@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/hello
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyUHJvZmlsZSI6eyJ1c2VybmFtZSI6IkFobWFkIiwicGFzc3dvcmQiOiJzZWNyZXQiLCJuYW1lIjoiYWFhaG1hZCIsImVtYWlsIjoiYWhtYWRwZWFjZXlvd0BnbWFpbC5jb20ifSwiaWF0IjoxNjgxNDM0Mjk4LCJleHAiOjE2ODE0Mzc4OTh9.mHlHuF8n12vtFAKjaEQFraa3CuIwtqf49ozHGyI9_Sk
